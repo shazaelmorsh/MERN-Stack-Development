@@ -1,0 +1,303 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.profile-pic {
+  height: 6vmin;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+a {
+  color: #343a40;
+}
+
+a:hover {
+  color: #173798;
+  text-decoration: none;
+}
+
+.BackGround {
+  height: 500px;
+  width: 1300px;
+}
+
+.desc {
+  /* text-align: right;
+  width:400;
+  height: 500;
+  white-space: pre-line; */
+  width: 500px;
+  margin-left: 900px;
+  border: 3px solid #73ad21;
+  float: left;
+}
+
+.img2 {
+  width: 400px;
+  height: 300;
+  margin-right: 600px;
+  /* float: right; */
+}
+
+#wrapper {
+  width: 1000px;
+  height: 100%;
+  border: 1px solid black;
+  height: 300px;
+  align-self: center;
+  overflow: hidden; /* add this to contain floated children */
+}
+#first {
+  margin-top: 0px;
+  width: 400px;
+  float: left; /* add this */
+}
+#second {
+  margin-top: 50px;
+  margin-left: 60px;
+  width: 500px;
+  float: left; /* add this */
+}
+
+#COfooter {
+  width: 1505px;
+  height: 150px;
+  background-color: #fec79a;
+}
+
+#navbar {
+  background-color: #022525;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+  background-color: #084c4b;
+}
+
+.logo {
+  height: 6vmin;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+
+#Drop {
+  margin-left: 10px;
+  margin-top: 1px;
+}
+
+#facilities {
+  text-align: start;
+  margin-left: 160px;
+  width: 400px;
+  height: 100%;
+  border: 1px solid grey;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#list {
+  margin-right: 310px;
+  font-family: "Courier New", Courier, monospace;
+  color: grey;
+}
+
+#title {
+  margin-right: 250px;
+  color: rgb(85, 80, 80) !important;
+}
+
+#addF {
+  margin-left: 360px;
+
+  /* margin-bottom: 100px; */
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 12px;
+  right: 30%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+}
+
+#facilities {
+  margin-left: 320px;
+}
+
+#ed1 {
+  margin-left: 555px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.w100 {
+  font-weight: 100;
+}
+.w200 {
+  font-weight: 200;
+}
+.w300 {
+  font-weight: 300;
+}
+.w400 {
+  font-weight: 400;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+.dropdown {
+  display: inline-block;
+  vertical-align: middle;
+}
+.dropdown .dropbtn {
+  display: inline;
+  font-size: 115%;
+  background: transparent; /* no background! */
+  border: 1px solid white;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 20px;
+  min-width: 80%;
+  outline: none;
+  color: inherit;
+  /* padding: 14px 16px; */
+  background-color: inherit;
+}
+
+/* color of Resume when hovered */
+.container a:hover,
+.dropdown:hover .dropbtn {
+  background-color: inherit;
+}
+
+button .hover {
+  display: none;
+}
+.dropdown:hover .no_hover {
+  display: none;
+}
+.dropdown:hover .hover {
+  display: inline;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 52.3%;
+  background-color: white;
+  min-width: 50%;
+  box-shadow: 0px 8px 16px 0px rgba(88, 88, 88, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(218, 213, 213);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  text-align: left;
+}
+/* .close:hover {background: #bbb;} */
+
+/* .close:hover {background: #bbb;} */
+
+/* .close:hover {background: #bbb;} */
